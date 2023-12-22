@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MazeGame</string>
+    <string name="text1">ІНДУСТРІАЛЬНЕ СУСПІЛЬСТВО НЕМИНУЧЕ ЗАЗНАЄ КРАХУ ЗА СВОЇ ГРІХИ ТОМУ ЩО ЗА НЬОГО КОТИ ШИРЯЮТЬСЯ ФРЕКСОМ</string>
+    <string name="text2">кіт мякіш</string>
+    <string name="automode">Automode</string>
+    <string name="restart">Restart</string>
+    <string name="regenerate">Regenerate</string>
+</resources>

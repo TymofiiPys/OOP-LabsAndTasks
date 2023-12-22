@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<CandyList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="candy.xsd">
+    <Candy id="ID-1" Type="Шоколадна">
+        <Name>Смакулька</Name>
+        <Energy>150</Energy>
+        <Ingredients>
+            <water>10.5</water>
+            <sugar>25.0</sugar>
+            <fructose>15.2</fructose>
+            <choc_type>Молочний шоколад</choc_type>
+            <vanillin>2.0</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>2.5</protein>
+            <fat>8.0</fat>
+            <carbohydrates>30.5</carbohydrates>
+        </Value>
+        <Production>СмакульКО</Production>
+    </Candy>
+    <Candy id="ID-2" Type="Шоколадна">
+        <Name>НоваШоколада</Name>
+        <Energy>120</Energy>
+        <Ingredients>
+            <water>12.0</water>
+            <sugar>22.5</sugar>
+            <fructose>20.0</fructose>
+            <choc_type>Темний шоколад</choc_type>
+            <vanillin>1.5</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>1.8</protein>
+            <fat>5.0</fat>
+            <carbohydrates>28.0</carbohydrates>
+        </Value>
+        <Production>НоваКом</Production>
+    </Candy>
+    <Candy id="ID-3" Type="Карамель">
+        <Name>КарамельХруст</Name>
+        <Energy>180</Energy>
+        <Ingredients>
+            <water>8.0</water>
+            <sugar>30.0</sugar>
+            <fructose>18.0</fructose>
+            <choc_type> </choc_type>
+            <vanillin>2.5</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>3.0</protein>
+            <fat>10.0</fat>
+            <carbohydrates>35.0</carbohydrates>
+        </Value>
+        <Production>НямНямІнк</Production>
+    </Candy>
+    <Candy id="ID-4" Type="Ірис">
+        <Name>IRISка</Name>
+        <Energy>130</Energy>
+        <Ingredients>
+            <water>11.0</water>
+            <sugar>20.0</sugar>
+            <fructose>25.0</fructose>
+            <choc_type> </choc_type>
+            <vanillin>1.0</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>2.2</protein>
+            <fat>5.5</fat>
+            <carbohydrates>30.0</carbohydrates>
+        </Value>
+        <Production>ШОКОЛАДМАСТЕРС</Production>
+    </Candy>
+    <Candy id="ID-5" Type="Карамель">
+        <Name>Карамеееееееееееееее</Name>
+        <Energy>140</Energy>
+        <Ingredients>
+            <water>10.0</water>
+            <sugar>25.5</sugar>
+            <fructose>15.0</fructose>
+            <choc_type> </choc_type>
+            <vanillin>1.8</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>2.0</protein>
+            <fat>6.0</fat>
+            <carbohydrates>32.0</carbohydrates>
+        </Value>
+        <Production>ЕЕЕЕЕЕ КО</Production>
+    </Candy>
+</CandyList>

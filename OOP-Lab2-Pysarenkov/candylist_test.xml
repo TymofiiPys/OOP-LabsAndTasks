@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<CandyList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="candy.xsd">
+    <Candy id="ID-1" Type="Шоколадна">
+        <Name>Смакулька</Name>
+        <Energy>150</Energy>
+        <Ingredients>
+            <water>10.5</water>
+            <sugar>25.0</sugar>
+            <fructose>15.2</fructose>
+            <choc_type>Молочний шоколад</choc_type>
+            <vanillin>2.0</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>2.5</protein>
+            <fat>8.0</fat>
+            <carbohydrates>30.5</carbohydrates>
+        </Value>
+        <Production>СмакульКО</Production>
+    </Candy>
+    <Candy id="ID-2" Type="Шоколадна">
+        <Name>НоваШоколада</Name>
+        <Energy>120</Energy>
+        <Ingredients>
+            <water>12.0</water>
+            <sugar>22.5</sugar>
+            <fructose>20.0</fructose>
+            <choc_type>Темний шоколад</choc_type>
+            <vanillin>1.5</vanillin>
+        </Ingredients>
+        <Value>
+            <protein>1.8</protein>
+            <fat>5.0</fat>
+            <carbohydrates>28.0</carbohydrates>
+        </Value>
+        <Production>НоваКом</Production>
+    </Candy>
+</CandyList>

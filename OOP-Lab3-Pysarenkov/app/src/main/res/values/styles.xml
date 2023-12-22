@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mazeViewStyle">
+        <item name="android:layout_width">365dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">#FFE3E3</item>
+    </style>
+</resources>

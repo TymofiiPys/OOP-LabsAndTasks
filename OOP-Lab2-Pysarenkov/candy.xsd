@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="CandyList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Candy" type="CandyType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="CandyType">
+        <xs:all>
+            <xs:element name="Name" type="nonEmptyString"/>
+            <xs:element name="Energy" type="xs:positiveInteger"/>
+            <xs:element name="Ingredients" type="IngredientsType"/>
+            <xs:element name="Value" type="ValueType"/>
+            <xs:element name="Production" type="nonEmptyString"/>
+        </xs:all>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="Type" type="candyType" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="IngredientsType">
+        <xs:all>
+            <xs:element name="water" type="percentage"/>
+            <xs:element name="sugar" type="nonNegativeDouble"/>
+            <xs:element name="fructose" type="nonNegativeDouble"/>
+            <xs:element name="choc_type" type="chocType"/>
+            <xs:element name="vanillin" type="nonNegativeDouble"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:complexType name="ValueType">
+        <xs:all>
+            <xs:element name="protein" type="nonNegativeDouble"/>
+            <xs:element name="fat" type="nonNegativeDouble"/>
+            <xs:element name="carbohydrates" type="nonNegativeDouble"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:simpleType name="nonEmptyString">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="nonNegativeDouble">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="candyType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Шоколадна"/>
+            <xs:enumeration value="Карамель"/>
+            <xs:enumeration value="Ірис"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="chocType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(.*шоколад)|( )"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="percentage">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
